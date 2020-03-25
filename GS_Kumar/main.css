@@ -1,0 +1,56 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans", helvetica, arial, sans;
+  background-image: url('gs.png');
+  background-color: #fafafa;
+}
+
+.logo{
+  width: 100px;
+}
+.log-form {
+  width: 100%;
+  min-width: 320px;
+  max-width: 500px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: -webkit-linear-gradient(left,#ccc,#fff);
+  margin-top: 1%;
+  padding: 3%;
+  border-radius: 2.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+.log-form {
+  padding: 2em;
+  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.70);
+  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.70);
+  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.70);
+}
+
+form {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+
+.site-header{
+    margin-bottom: 50px;
+
+}
+
